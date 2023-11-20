@@ -3,7 +3,7 @@
  */
 
 @font-face {
-  font-family: 'mapogodlen';
+  font-family: 'mapogolden';
   src: url('../font/MapoGoldenPier.ttf') format('truetype');
 }
 @font-face {
@@ -15,7 +15,7 @@
   src: url('../font/GmarketSansTTFMedium.ttf') format('truetype');
 }
 @font-face {
-  font-family: 'Mapoflower';
+  font-family: 'mapoflower';
   src: url('../font/MapoFlowerIsland.ttf') format('truetype');
 }
 
@@ -149,7 +149,7 @@ body {
 .cover-heading {
   margin-top: 7.5rem;
   color: #fefefe;
-  font-family: NanumMyeongjo-b;
+  font-family: mapogolden;
 }
 
 .top-div {
@@ -324,7 +324,7 @@ header {
 }
 
 .section5-table {
-  font-family: gmarket-m;
+  font-family: gmarket-b;
   line-height: 1.5em;
   font-size: 1.3rem;
   border-top: 1px solid #ccc;
@@ -372,7 +372,7 @@ header {
 }
 
 .section6-location-main {
-  font-family: gmarket-m;
+  font-family: gmarket-b;
   line-height: 1.5em;
   font-size: 1.3rem;
 }

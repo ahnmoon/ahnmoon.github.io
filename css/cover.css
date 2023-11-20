@@ -2,21 +2,21 @@
  * Globals
  */
 
-@font-face {
-  font-family: 'mapogolden';
-  src: url('../font/MapoGoldenPier.ttf') format('truetype');
+ @font-face {
+  font-family: 'NanumMyeongjo-r';
+  src: url('../font/NanumMyeongjo-Regular.ttf') format('truetype');
 }
 @font-face {
-  font-family: 'gmarket-l';
-  src: url('../font/아리따-돋움(TTF)-Light.ttf') format('truetype');
+  font-family: 'NanumMyeongjo-e';
+  src: url('../font/NanumMyeongjo-ExtraBold.ttf') format('truetype');
 }
 @font-face {
-  font-family: 'gmarket-b';
-  src: url('../font/아리따-돋움(TTF)-Medium.ttf') format('truetype');
+  font-family: 'NanumMyeongjo-b';
+  src: url('../font/NanumMyeongjo-Bold.ttf') format('truetype');
 }
 @font-face {
-  font-family: 'mapoflower';
-  src: url('../font/MapoFlowerIsland.ttf') format('truetype');
+  font-family: 'DancingScript-b';
+  src: url('../font/DancingScript-Bold.ttf') format('truetype');
 }
 
 /* Links */
@@ -41,7 +41,7 @@ a:hover {
   margin-bottom: 1em;
   color: #333;
   text-shadow: none;
-  font-family: mapogolden;
+  font-family: NanumMyeongjo-b;
   font-size: 1.7rem;
 }
 
@@ -49,7 +49,7 @@ a:hover {
   margin-top: 1em;
   color: #333;
   text-shadow: none;
-  font-family: mapogolden;
+  font-family: NanumMyeongjo-b;
   font-size: 1.2rem;
 }
 
@@ -148,8 +148,8 @@ body {
 
 .cover-heading {
   margin-top: 7.5rem;
-  color: #fefefe;
-  font-family: mapogolden;
+  color: #122413;
+  font-family: NanumMyeongjo-b;
 }
 
 .top-div {
@@ -184,19 +184,19 @@ header {
 
 .section1-main {
   background-color: #fefefe;
-  font-family: mapogolden;
+  font-family: NanumMyeongjo-r;
   line-height: 2em;
   font-size: 1.2rem;
 }
 
 .section1-sub {
-  font-family: mapoflower;
+  font-family: NanumMyeongjo-b;
   line-height: 2.1em;
   font-size: 1.35rem;
 }
 
 .section1-sub2 {
-  font-family: mapoflower;
+  font-family: NanumMyeongjo-b;
   line-height: 2.1em;
   font-size: 1.35rem;
 }
@@ -212,7 +212,7 @@ header {
 }
 
 .section2-main {
-  font-family: mapogolden;
+  font-family: NanumMyeongjo-b;
   line-height: 1.5em;
   font-size: 1.35rem;
   position: relative;
@@ -234,7 +234,7 @@ header {
 }
 
 .section2-sub {
-  font-family: mapogolden;
+  font-family: NanumMyeongjo-b;
   line-height: 2em;
   font-size: 1.2rem;
 }
@@ -250,7 +250,7 @@ header {
 }
 
 .section3-main {
-  font-family: mapogolden;
+  font-family: DancingScript-b;
   line-height: 1.5em;
   font-size: 2rem;
   margin-top: 2em;
@@ -272,33 +272,33 @@ header {
 }
 
 .section4-sec1 {
-  font-family: gmarket-l;
+  font-family: NanumMyeongjo-r;
   line-height: 1.5em;
   font-size: 1.3rem;
 }
 
 .section4-sec2 {
-  font-family: gmarket-l;
+  font-family: NanumMyeongjo-b;
   line-height: 1.5em;
   font-size: 1.35rem;
 }
 
 .section4-sec3 {
-  font-family: gmarket-l;
+  font-family: NanumMyeongjo-b;
   line-height: 1.5em;
   font-size: 1.35rem;
   background: none;
   border: none;
-  color: #55CCCC;
+  color: rgb(91, 123, 165) 176, 204);
 }
 
 .section4-sec3-g {
-  font-family: gmarket-l;
+  font-family: NanumMyeongjo-b;
   line-height: 1.5em;
   font-size: 1.35rem;
   background: none;
   border: none;
-  color: #FF99CC;
+  color: #a86868;
 }
 
 .section5 {
@@ -312,19 +312,19 @@ header {
 }
 
 .section5-main {
-  font-family: mapogolden;
+  font-family: DancingScript-b;
   line-height: 1.5em;
   font-size: 2rem;
 }
 
 .section5-sub {
-  font-family: gmarket-l;
+  font-family: NanumMyeongjo-r;
   line-height: 1.5em;
   font-size: 1.3rem;
 }
 
 .section5-table {
-  font-family: gmarket-b;
+  font-family: NanumMyeongjo-r;
   line-height: 1.5em;
   font-size: 1.3rem;
   border-top: 1px solid #ccc;
@@ -366,25 +366,25 @@ header {
 }
 
 .section6-main {
-  font-family: mapogolden;
+  font-family: DancingScript-b;
   line-height: 1.5em;
   font-size: 2rem;
 }
 
 .section6-location-main {
-  font-family: gmarket-l;
+  font-family: NanumMyeongjo-e;
   line-height: 1.5em;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
 }
 
 .section6-sub {
-  font-family: gmarket-l;
+  font-family: NanumMyeongjo-r;
   line-height: 1.5em;
   font-size: 1.3rem;
 }
 
 .section6-location-sub {
-  font-family: gmarket-l;
+  font-family: NanumMyeongjo-r;
   line-height: 1.5em;
   font-size: 1.2rem;
   text-align: left;
@@ -413,15 +413,15 @@ header {
 }
 
 .section7-main {
-  font-family: mapogolden;
+  font-family: NanumMyeongjo-b;
   line-height: 1.4em;
   font-size: 1.4rem;
 }
 
 .section7-button {
-  font-family: gmarket-l;
+  font-family: NanumMyeongjo-b;
   font-size: 1.2rem;
-  background-color: #d4bc70;
+  background-color: rgb(189, 147, 58);
   color: #fff;
   border: 0;
   border-radius: 50px;
@@ -431,19 +431,19 @@ header {
 }
 
 .section7-button:hover {
-  background-color: #d4bc70;
+  background-color:rgb(189, 147, 58);
   color: #fff;
   border: 0;
 }
 
 .section7-button:active {
-  background-color: #b59c4c;
+  background-color: rgb(160, 125, 51);
   color: #fff;
   border: 0;
 }
 
 .section7-button:valid {
-  background-color: #b59c4c;
+  background-color: rgb(189, 147, 58);
   color: #fff;
   border: 0;
 }

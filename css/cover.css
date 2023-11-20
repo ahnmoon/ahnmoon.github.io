@@ -8,11 +8,11 @@
 }
 @font-face {
   font-family: 'gmarket-l';
-  src: url('../font/GmarketSansLight.ttf') format('truetype');
+  src: url('../font/아리따-돋움(TTF)-Light.ttf') format('truetype');
 }
 @font-face {
   font-family: 'gmarket-b';
-  src: url('../font/GmarketSansTTFMedium.ttf') format('truetype');
+  src: url('../font/아리따-돋움(TTF)-Medium.ttf') format('truetype');
 }
 @font-face {
   font-family: 'mapoflower';
@@ -190,7 +190,7 @@ header {
 }
 
 .section1-sub {
-  font-family: mapogolden;
+  font-family: mapoflower;
   line-height: 2.1em;
   font-size: 1.35rem;
 }
@@ -250,7 +250,7 @@ header {
 }
 
 .section3-main {
-  font-family: mapoflower;
+  font-family: mapogolden;
   line-height: 1.5em;
   font-size: 2rem;
   margin-top: 2em;
@@ -372,9 +372,9 @@ header {
 }
 
 .section6-location-main {
-  font-family: gmarket-b;
+  font-family: gmarket-l;
   line-height: 1.5em;
-  font-size: 1.3rem;
+  font-size: 1.2rem;
 }
 
 .section6-sub {

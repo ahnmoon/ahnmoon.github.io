@@ -3,20 +3,20 @@
  */
 
 @font-face {
-  font-family: 'NanumMyeongjo-r';
-  src: url('../font/NanumMyeongjo-Regular.ttf') format('truetype');
+  font-family: 'mapogodlen';
+  src: url('../font/MapoGoldenPier.ttf') format('truetype');
 }
 @font-face {
-  font-family: 'NanumMyeongjo-e';
-  src: url('../font/NanumMyeongjo-ExtraBold.ttf') format('truetype');
+  font-family: 'gmarket-l';
+  src: url('../font/GmarketSansLight.ttf') format('truetype');
 }
 @font-face {
-  font-family: 'NanumMyeongjo-b';
-  src: url('../font/NanumMyeongjo-Bold.ttf') format('truetype');
+  font-family: 'gmarket-b';
+  src: url('../font/GmarketSansTTFMedium.ttf') format('truetype');
 }
 @font-face {
-  font-family: 'DancingScript-b';
-  src: url('../font/DancingScript-Bold.ttf') format('truetype');
+  font-family: 'Mapoflower';
+  src: url('../font/MapoFlowerIsland.ttf') format('truetype');
 }
 
 /* Links */
@@ -41,7 +41,7 @@ a:hover {
   margin-bottom: 1em;
   color: #333;
   text-shadow: none;
-  font-family: NanumMyeongjo-b;
+  font-family: mapogolden;
   font-size: 1.7rem;
 }
 
@@ -49,7 +49,7 @@ a:hover {
   margin-top: 1em;
   color: #333;
   text-shadow: none;
-  font-family: NanumMyeongjo-b;
+  font-family: mapogolden;
   font-size: 1.2rem;
 }
 
@@ -184,19 +184,19 @@ header {
 
 .section1-main {
   background-color: #fefefe;
-  font-family: NanumMyeongjo-r;
+  font-family: mapogolden;
   line-height: 2em;
   font-size: 1.2rem;
 }
 
 .section1-sub {
-  font-family: NanumMyeongjo-b;
+  font-family: mapogolden;
   line-height: 2.1em;
   font-size: 1.35rem;
 }
 
 .section1-sub2 {
-  font-family: NanumMyeongjo-b;
+  font-family: mapoflower;
   line-height: 2.1em;
   font-size: 1.35rem;
 }
@@ -212,7 +212,7 @@ header {
 }
 
 .section2-main {
-  font-family: NanumMyeongjo-b;
+  font-family: mapogolden;
   line-height: 1.5em;
   font-size: 1.35rem;
   position: relative;
@@ -234,7 +234,7 @@ header {
 }
 
 .section2-sub {
-  font-family: NanumMyeongjo-b;
+  font-family: mapogolden;
   line-height: 2em;
   font-size: 1.2rem;
 }
@@ -250,7 +250,7 @@ header {
 }
 
 .section3-main {
-  font-family: DancingScript-b;
+  font-family: mapoflower;
   line-height: 1.5em;
   font-size: 2rem;
   margin-top: 2em;
@@ -272,19 +272,19 @@ header {
 }
 
 .section4-sec1 {
-  font-family: NanumMyeongjo-r;
+  font-family: gmarket-l;
   line-height: 1.5em;
   font-size: 1.3rem;
 }
 
 .section4-sec2 {
-  font-family: NanumMyeongjo-b;
+  font-family: gmarket-l;
   line-height: 1.5em;
   font-size: 1.35rem;
 }
 
 .section4-sec3 {
-  font-family: NanumMyeongjo-b;
+  font-family: gmarket-l;
   line-height: 1.5em;
   font-size: 1.35rem;
   background: none;
@@ -293,7 +293,7 @@ header {
 }
 
 .section4-sec3-g {
-  font-family: NanumMyeongjo-b;
+  font-family: gmarket-l;
   line-height: 1.5em;
   font-size: 1.35rem;
   background: none;
@@ -312,19 +312,19 @@ header {
 }
 
 .section5-main {
-  font-family: DancingScript-b;
+  font-family: mapogolden;
   line-height: 1.5em;
   font-size: 2rem;
 }
 
 .section5-sub {
-  font-family: NanumMyeongjo-r;
+  font-family: gmarket-l;
   line-height: 1.5em;
   font-size: 1.3rem;
 }
 
 .section5-table {
-  font-family: NanumMyeongjo-r;
+  font-family: gmarket-m;
   line-height: 1.5em;
   font-size: 1.3rem;
   border-top: 1px solid #ccc;
@@ -366,25 +366,25 @@ header {
 }
 
 .section6-main {
-  font-family: DancingScript-b;
+  font-family: mapogolden;
   line-height: 1.5em;
   font-size: 2rem;
 }
 
 .section6-location-main {
-  font-family: NanumMyeongjo-e;
+  font-family: gmarket-m;
   line-height: 1.5em;
   font-size: 1.3rem;
 }
 
 .section6-sub {
-  font-family: NanumMyeongjo-r;
+  font-family: gmarket-l;
   line-height: 1.5em;
   font-size: 1.3rem;
 }
 
 .section6-location-sub {
-  font-family: NanumMyeongjo-r;
+  font-family: gmarket-l;
   line-height: 1.5em;
   font-size: 1.2rem;
   text-align: left;
@@ -413,15 +413,15 @@ header {
 }
 
 .section7-main {
-  font-family: NanumMyeongjo-b;
+  font-family: mapogolden;
   line-height: 1.4em;
   font-size: 1.4rem;
 }
 
 .section7-button {
-  font-family: NanumMyeongjo-b;
+  font-family: gmarket-l;
   font-size: 1.2rem;
-  background-color: #CC9999;
+  background-color: #d4bc70;
   color: #fff;
   border: 0;
   border-radius: 50px;
@@ -431,19 +431,19 @@ header {
 }
 
 .section7-button:hover {
-  background-color: #CC9999;
+  background-color: #d4bc70;
   color: #fff;
   border: 0;
 }
 
 .section7-button:active {
-  background-color: #996666;
+  background-color: #b59c4c;
   color: #fff;
   border: 0;
 }
 
 .section7-button:valid {
-  background-color: #CC9999;
+  background-color: #b59c4c;
   color: #fff;
   border: 0;
 }

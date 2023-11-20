@@ -56,7 +56,7 @@
         wow.init();
 
         $(document).ready(function() {
-            let date = new Date(2024, 1, 27);
+            let date = new Date(2023, 11, 20);
             let currentDate = new Date();
 
             let result = date - currentDate;
@@ -73,10 +73,7 @@
     <header class="inner cover cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
         <h1 class="wow fadeIn cover-heading" style="text-align: right; margin-top: 0.5em; margin-right: 0.5em; font-size: 2rem;">
             <span style="letter-spacing : -0.13em; margin-right: 0.1em">⎽⎽</span><br/>
-            01 <br/>
-            月 <br/>
-            27 <br/>
-            日 <br/>
+           
             <span style="letter-spacing : -0.13em; margin-right: 0.1em;">⎺⎺</span>
         </h1>
     </header>
@@ -117,8 +114,7 @@
         <hr class="cover-container"/>
         <br/>
         <p class="wow fadeInUp section2-title section2-main inner cover cover-container d-flex w-100 h-100 p-5 mx-auto flex-column">
-            축하해 주시는<br/>
-            모든 분들에게
+            -<br/>
         </p>
         <p class="wow fadeInUp section2-title section2-sub inner cover cover-container d-flex w-100 h-100 p-2 mx-auto flex-column">
         
@@ -353,11 +349,11 @@
                 신랑 신부 계좌번호 보기
             </button>
             <!-- Modal -->
-            <div class="modal fade" id="groom" tabindex="-1" aria-labelledby="groom" aria-hidden="true">
+            <div class="modal fade" id="gb" tabindex="-1" aria-labelledby="gb" aria-hidden="true">
                 <div class="modal-dialog modal-dialog-centered">
                     <div class="modal-content">
                         <div class="modal-header">
-                           <h5 class="modal-title section7-modal section7-modal-title" id="groomLabel">신랑 신부 계좌번호 보기</h5>
+                           <h5 class="modal-title section7-modal section7-modal-title" id="gbLabel">신랑 신부 계좌번호 보기</h5>
                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                 <span aria-hidden="true">&times;</span>
                             </button>
@@ -448,21 +444,25 @@
                 </p>
             </div>
             <br/>
-            <div id="map" class="wow fadeInUp" style="width:100%;height:350px;"></div>
+           <!-- * 카카오맵 - 지도퍼가기 -->
+<!-- 1. 지도 노드 -->
+<div id="daumRoughmapContainer1700491875424" class="root_daum_roughmap root_daum_roughmap_landing"></div>
 
-            <script type="text/javascript" 
+<!--
+	2. 설치 스크립트
+	* 지도 퍼가기 서비스를 2개 이상 넣을 경우, 설치 스크립트는 하나만 삽입합니다.
+-->
+<script charset="UTF-8" class="daum_roughmap_loader_script" src="https://ssl.daumcdn.net/dmaps/map_js_init/roughmapLoader.js"></script>
 
-	<div id="daumRoughmapContainer1700415662370" class="root_daum_roughmap root_daum_roughmap_landing"></div>
-
-	<script charset="UTF-8" class="daum_roughmap_loader_script" src="https://ssl.daumcdn.net/dmaps/map_js_init/roughmapLoader.js"></script>
-
+<!-- 3. 실행 스크립트 -->
 <script charset="UTF-8">
 	new daum.roughmap.Lander({
-		"timestamp" : "1700415662370",
-		"key" : "2gvsi",
+		"timestamp" : "1700491875424",
+		"key" : "2gwho",
 		"mapWidth" : "640",
 		"mapHeight" : "360"
 	}).render();
+</script>
             </script>
             <div class="wow fadeInUp section6-location p-3">
                 <div class="accordion" id="accordionExample">

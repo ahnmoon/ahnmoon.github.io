@@ -110,99 +110,86 @@
                 안호균 · 신은희<span class="small">의&nbsp&nbsp&nbsp딸&nbsp&nbsp&nbsp</span>안서연
             </div>
             <br/><br/><br/><br/>
-        </div>
-        <hr class="cover-container"/>
-        <br/>
-        <p class="wow fadeInUp section2-title section2-main inner cover cover-container d-flex w-100 h-100 p-5 mx-auto flex-column">
-            -<br/>
-        </p>
-        <p class="wow fadeInUp section2-title section2-sub inner cover cover-container d-flex w-100 h-100 p-2 mx-auto flex-column">
-        
-        </p>
-        <br/><br/><br/><br/>
-        <div id="gallery" class="section3 container cover-container">
-            <br/>
-                <p class="top-title">Gallery</p>
-                
-                <div class="row row-cols-3 wow fadeIn section3-image">
-                    <!-- TODO : select fluid or thumbnail and edit -->
-                    <div class="col-sm6">
-                        <a href="img/test/1.jpg">
-                            <img class="img-fluid" src="img/test/1.jpg" alt="" />
-                        </a>
-                    </div>
-                    <div class="col-sm6">
-                        <a href="img/test/2.jpg">
-                            <img class="img-fluid" src="img/test/2.jpg" alt="" />
-                        </a>
-                    </div>
-                    <div class="col-sm6">
-                        <a href="img/test/3.jpg">
-                            <img class="img-fluid" src="img/test/3.jpg" alt="" />
-                        </a>
-                    </div>
-                    <div class="col-sm6">
-                        <a href="img/test/4.jpg">
-                            <img class="img-fluid" src="img/test/4.jpg" alt="" />
-                        </a>
-                    </div>
-                    <div class="col-sm6">
-                        <a href="img/test/5.jpg">
-                            <img class="img-fluid" src="img/test/5.jpg" alt="" />
-                        </a>
-                    </div>
-                    <div class="col-sm6">
-                        <a href="img/test/6.jpg">
-                            <img class="img-fluid" src="img/test/6.jpg" alt="" />
-                        </a>
-                    </div>
-                    <div class="col-sm6">
-                        <a href="img/test/7.jpg">
-                            <img class="img-fluid" src="img/test/7.jpg" alt="" />
-                        </a>
-                    </div>
-                    <div class="col-sm6">
-                        <a href="img/test/8.jpg">
-                            <img class="img-fluid" src="img/test/8.jpg" alt="" />
-                        </a>
-                    </div>
-                    <div class="col-sm6">
-                        <a href="img/test/9.jpg">
-                            <img class="img-fluid" src="img/test/9.jpg" alt="" />
-                        </a>
-                    </div>
-                    <div class="col-sm6">
-                        <a href="img/test/10.jpg">
-                            <img class="img-fluid" src="img/test/10.jpg" alt="" />
-                        </a>
-                    </div>
-                    <div class="col-sm6">
-                        <a href="img/test/11.jpg">
-                            <img class="img-fluid" src="img/test/11.jpg" alt="" />
-                        </a>
-                    </div>
-                    <div class="col-sm6">
-                        <a href="img/test/12.jpg">
-                            <img class="img-fluid" src="img/test/12.jpg" alt="" />
-                        </a>
-                    </div>
-                    <div class="col-sm6">
-                        <a href="img/test/13.jpg">
-                            <img class="img-fluid" src="img/test/13.jpg" alt="" />
-                        </a>
-                    </div>
-                    <div class="col-sm6">
-                        <a href="img/test/14.jpg">
-                            <img class="img-fluid" src="img/test/14.jpg" alt="" />
-                        </a>
-                    </div>
-                    <div class="col-sm6">
-                        <a href="img/test/15.jpg">
-                            <img class="img-fluid" src="img/test/15.jpg" alt="" />
-                        </a>
-                    </div>
-                </div>
+            <div class="wow fadeInUp section3 inner cover-container d-flex w-100 h-100 p-2 mx-auto flex-column">
+                <p class="wow fadeInUp section3-title section3-main">Gallery</p>
+                <div id="nanogallery2" class="wow fadeIn carousel slide section3-image" data-ride="carousel"></div>
+                <br/><br/><br/>
             </div>
+            <script>
+               jQuery(document).ready(function () {
+    
+                  jQuery("#nanogallery2").nanogallery2( {
+                      // ### gallery settings ###
+                      itemsBaseURL:     'https://dngthe93.github.io/wedding-card/img/test/',
+    
+              //galleryDisplayMode: 'moreButton',
+              //galleryDisplayMode: 'pagination',
+              galleryDisplayMode: 'rows',
+              galleryMaxRows: 3,
+              galleryMaxItems: 17,
+              gallerySorting: 'random',
+              thumbnailHeight: '250 XS200 SM200',       // RESPONSIVE THUMBNAIL HEIGHT: default=300px, XS resolution=200px, SM resolution=200px
+              thumbnailWidth: '250 XSauto SMauto',        // RESPONSIVE THUMBNAIL WIDTH:  default=300px, XS resolution=180px, SM resolution=200px
+    
+              thumbnailAlignment: 'center',
+              thumbnailBorderHorizontal: 0, thumbnailBorderVertical: 0,
+              thumbnailGutterWidth : '20 XS10 SM20',
+              thumbnailGutterHeight : '20 XS10 SM20',
+              
+              // THUMBNAIL TOOLS & LABEL
+              //thumbnailLabel: { display: true, position: 'onBottom', align: 'left'},
+              //thumbnailToolbarImage :  { bottomLeft : 'display' },
+              // replace the default DISPLAY tool icon
+              //icons: {thumbnailDisplay: '<i class="fa fa-long-arrow-right" aria-hidden="true"></i> display'},
+              
+              // DISPLAY ANIMATION
+              galleryDisplayTransition: 'slideUp',
+              galleryDisplayTransitionDuration: 1000,
+              thumbnailDisplayTransition: 'scaleDown',
+              thumbnailDisplayTransitionDuration: 300,
+              thumbnailDisplayInterval: 50,
+    
+    
+              // THUMBNAIL'S HOVER ANIMATION
+              thumbnailBuildInit2 : 'tools_font-size_1.5em|title_font-size_1.5em',
+              thumbnailHoverEffect2 : 'image_scale_1.00_1.20_1000|tools_opacity_0_1|tools_translateX_-30px_0px|title_opacity_1_0|title_translateX_0px_-30px',
+              touchAnimation: true,
+              touchAutoOpenDelay: 800,
+    
+              // GALLERY THEME
+              galleryTheme : { 
+                thumbnail: { borderRadius: '10px', background: '#fff', titleShadow : 'none', titleColor: '#000', labelBackground: '#ff0' },
+                thumbnailIcon: { color: '#000', shadow: 'none' },
+              },
+              
+              // LIGHTBOX
+              // Hide the bottom toolbar and media title
+              viewerToolbar: { display: false },
+    
+              // DEEP LINKING
+              locationHash: false,
+    
+                      // ### gallery content ###
+                      items: [
+                          { src: '1.jpg', srct: '15.jpg', title: '' },
+                          { src: '2.jpg', srct: '16.jpg', title: '' },
+                          { src: '3.jpg', srct: '17.jpg', title: '' },
+                          { src: '4.jpg', srct: '18.jpg', title: '' },
+                          { src: '5.jpg', srct: '19.jpg', title: '' },
+                          { src: '6.jpg', srct: '20.jpg', title: '' },
+                          { src: '7.jpg', srct: '21.jpg', title: '' },
+                          { src: '8.jpg', srct: '22.jpg', title: '' },
+                          { src: '9.jpg', srct: '23.jpg', title: '' },
+                          { src: '10.jpg', srct: '24.jpg', title: '' },
+                          { src: '11.jpg', srct: '25.jpg', title: '' },
+                          { src: '12.jpg', srct: '26.jpg', title: '' },
+                          { src: '13.jpg', srct: '27.jpg', title: '' },
+                          { src: '14.jpg', srct: '28.jpg', title: '' }
+                         
+                        ]
+                    });
+                });
+            </script>
         <div class="wow fadeInUp">
             <br/><br/>
             <div class="container section4-title">
@@ -282,21 +269,22 @@
             <br/>
             <!-- Button trigger modal -->
             <button type="button" class="wow fadeInUp btn section7-button" data-toggle="modal" data-target="#groom">
-                신랑 혼주 계좌번호 보기
+                신랑 가족 계좌번호 보기
             </button>
             <!-- Modal -->
             <div class="modal fade" id="groom" tabindex="-1" aria-labelledby="groom" aria-hidden="true">
                 <div class="modal-dialog modal-dialog-centered">
                     <div class="modal-content">
                         <div class="modal-header">
-                            <h5 class="modal-title section7-modal section7-modal-title" id="groomLabel">신랑 혼주 계좌번호 보기</h5>
+                            <h5 class="modal-title section7-modal section7-modal-title" id="groomLabel">신랑 가족 계좌번호 보기</h5>
                             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                 <span aria-hidden="true">&times;</span>
                             </button>
                         </div>
                         <div class="modal-body section7-modal section7-modal-content">
                             신랑 아버지 : 우리 129-147221-12-101 문한호</br>
-			    신랑 어머니 : 우리 1002-560-119230 이완자
+			                신랑 어머니 : 우리 1002-560-119230 이완자</br>
+                            신랑 : 신한 110-272-053700 문동혁
                         </div>
                         <div class="modal-footer">
                             <button type="button" class="btn btn-secondary" data-dismiss="modal">닫기</button>
@@ -306,14 +294,14 @@
             </div>
             <!-- Button trigger modal -->
             <button type="button" class="wow fadeInUp btn section7-button" data-toggle="modal" data-target="#bride">
-                신부 혼주 계좌번호 보기
+                신부 가족 계좌번호 보기
             </button>
             <!-- Modal -->
             <div class="modal fade" id="bride" tabindex="-1" aria-labelledby="bride" aria-hidden="true">
                 <div class="modal-dialog modal-dialog-centered">
                     <div class="modal-content">
                         <div class="modal-header">
-                            <h5 class="modal-title section7-modal section7-modal-title" id="brideLabel">신부 혼주 계좌번호 보기</h5>
+                            <h5 class="modal-title section7-modal section7-modal-title" id="brideLabel">신부 가족 계좌번호 보기</h5>
                             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                 <span aria-hidden="true">&times;</span>
                             </button>
@@ -321,30 +309,13 @@
                         <div class="modal-body section7-modal section7-modal-content">
                             신부 아버지 :우리 46314359902001 안호균</br>
 	                        신부 어머니 :농협 077 02 198921 신은희</br>
+                            신부 : 기업 204-046495-03-012 안서연
                         </div>
                         <div class="modal-footer">
                             <button type="button" class="btn btn-secondary" data-dismiss="modal">닫기</button>
                         </div>
                     </div>
                 </div>
-            </div>
-  <!-- Button trigger modal -->
-  <button type="button" class="wow fadeInUp btn section7-button" data-toggle="modal" data-target="#bride">
-    신랑 신부 계좌번호 보기
-</button>
-<!-- Modal -->
-<div class="modal fade" id="bride and groom" tabindex="-1" aria-labelledby="bride and groom" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title section7-modal section7-modal-title" id="bride and groom Label">신랑 신부 계좌번호 보기</h5>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                </button>
-            </div>
-            <div class="modal-body section7-modal section7-modal-content">
-                신랑 : 신한 110-272-053700 문동혁
-                신부 : 기업 204-046495-03-012
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-dismiss="modal">닫기</button>
